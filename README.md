@@ -21,13 +21,13 @@ Parameters:
  - nmachines: the number of machines for the simulated cluster. Maximum value 256.
 
 Options:
- - -separator string 		 specifies the separator between user, item and rating in the input file . Default '\t'.
- - -partitioning_algorithm string 		 specifies the algorithm to be used by the input partitioner procedure (hdrf greedy hashing grid). Default greedy.
- - -frequency integer 		 specifies how many times the machines comunicate during each epoch. Default 1.
- - -partitioned string 		 specifies if the greedy algorithm is bipartite aware, partitioning 'user' or 'item' respectively. Default null.
- - -output_dir string 		 specifies the name of the directory where the output files will be stored.
- - -iterations integer 		 specifies how many iterations to be performed by the sgd algorithm. Default 30.
- - -lambda double 		 specifies the regularization parameter for the sgd algorithm. Default 0.05.
- - -learning_rate double 		 specifies the learning rate for the sgd algorithm. Default 0.01.
- - -rank integer 		 specifies the number of latent features for the low rank approximation. Default 50.
+ - -separator string    ->      specifies the separator between user, item and rating in the input file . Default '\t'.
+ - -partitioning_algorithm string       ->      specifies the algorithm to be used by the input partitioner procedure (hdrf greedy hashing grid). Default greedy.
+ - -frequency integer   ->      specifies how many times the machines comunicate during each epoch. Default 1.
+ - -partitioned string  ->      specifies if the greedy algorithm is bipartite aware, partitioning 'user' or 'item' respectively. Default null.
+ - -output_dir string   ->      specifies the name of the directory where the output files will be stored.
+ - -iterations integer  ->      specifies how many iterations to be performed by the sgd algorithm. Default 30.
+ - -lambda double       ->      specifies the regularization parameter for the sgd algorithm. Default 0.05.
+ - -learning_rate double        ->      specifies the learning rate for the sgd algorithm. Default 0.01.
+ - -rank integer        ->      specifies the number of latent features for the low rank approximation. Default 50.
 
