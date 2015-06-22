@@ -1,7 +1,7 @@
 # GASGD
 Distributed Asynchronous Matrix Completion Simulator
 
-A simulator for Distributed Asynchronous Matrix Completion.
+A multithread simulator for Distributed Asynchronous Matrix Completion.
  Based on the publication:
 
 -  F. Petroni and L. Querzoni:
