@@ -21,22 +21,22 @@ Parameters:
  - nmachines: the number of machines for the simulated cluster. Maximum value 256.
 
 Options:
- - separator string
+ - -separator string \t
 	 specifies the separator between user, item and rating in the input file . Default '\t'.
- - partitioning_algorithm string
+ - -partitioning_algorithm string \t
 	 specifies the algorithm to be used by the input partitioner procedure (hdrf greedy hashing grid). Default greedy.
- - frequency integer
+ - -frequency integer \t
 	 specifies how many times the machines comunicate during each epoch. Default 1.
- - partitioned string
+ - -partitioned string \t
 	 specifies if the greedy algorithm is bipartite aware, partitioning 'user' or 'item' respectively. Default null.
- - output_dir string
+ - -output_dir string \t
 	 specifies the name of the directory where the output files will be stored.
- - iterations integer
+ - -iterations integer \t
 	 specifies how many iterations to be performed by the sgd algorithm. Default 30.
- - lambda double
+ - -lambda double \t
 	 specifies the regularization parameter for the sgd algorithm. Default 0.05.
- - learning_rate double
+ - -learning_rate double \t
 	 specifies the learning rate for the sgd algorithm. Default 0.01.
- - rank integer
+ - -rank integer \t
 	 specifies the number of latent features for the low rank approximation. Default 50.
 
