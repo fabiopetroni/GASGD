@@ -5,7 +5,7 @@ A simulator for Distributed Asynchronous Matrix Completion.
  Based on the publication:
 
 -  F. Petroni and L. Querzoni:
-   GASGD: stochastic gradient descent for distributed asynchronous matrix completion via graph partitioning.
+   "GASGD: stochastic gradient descent for distributed asynchronous matrix completion via graph partitioning."
    In: Proceedings of the 8th ACM Conference on Recommender systems (RecSys), 2014.
    
 Abstract:  Matrix completion latent factors models are known to be an effective method to build recommender systems. Currently, stochastic gradient descent (SGD) is considered one of the best latent factor-based algorithm for matrix completion. In this paper we discuss GASGD, a distributed asynchronous variant of SGD for large-scale matrix completion, that (i) leverages data partitioning schemes based on graph partitioning techniques, (ii) exploits specific characteristics of the input data and (iii) introduces an explicit parameter to tune synchronization frequency among the computing nodes.
