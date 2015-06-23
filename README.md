@@ -22,7 +22,7 @@ Parameters:
 
 Options:
  - -separator string    ->      specifies the separator between user, item and rating in the input file . Default '\t'.
- - -partitioning_algorithm string       ->      specifies the algorithm to be used by the input partitioner procedure (hdrf greedy hashing grid). Default greedy.
+ - -partitioning_algorithm string       ->      specifies the algorithm to be used by the input partitioner procedure (hdrf greedy hashing grid pds). Default greedy.
  - -frequency integer   ->      specifies how many times the machines comunicate during each epoch. Default 1.
  - -partitioned string  ->      specifies if the greedy algorithm is bipartite aware, partitioning 'user' or 'item' respectively. Default null.
  - -output_dir string   ->      specifies the name of the directory where the output files will be stored.
